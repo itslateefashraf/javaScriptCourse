@@ -33,6 +33,42 @@
             )
             
             car.getCarDetail()
+
+
+
+
+            laptop={
+            name:'hp',
+            color:'black',
+            memory:'164gb',
+            core:'i3',
+            laptopDetails: {
+            price:'20,000rs',
+            'screen-size':'22 inch',
+            weight:'10kg',
+            },  
+
+            getLaptopDetails:function(){
+                return this.laptopDetails.price;
+            },
+
+            getName:function(){
+                return laptop.name
+            },
+            getLaptop:function(){
+                return 'laptop is running'
+            },
+            getLaptop:function(){
+                 return 'laptopn is booting'
+            }
+
+        };
+        console.log(laptop);
+        console.log(laptop.getName())
+        console.log(laptop.getLaptop())
+        console.log(laptop.getLaptop())
+        console.log(laptop.laptopDetails)
+        console.log(laptop.getLaptopDetails())
     </script>
     
 </body>
